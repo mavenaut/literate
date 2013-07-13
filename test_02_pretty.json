@@ -1,0 +1,353 @@
+[
+  {
+    "docTitle": [
+      {
+        "Str": "JSON"
+      },
+      "Space",
+      {
+        "Str": "Test"
+      },
+      "Space",
+      {
+        "Str": "02"
+      }
+    ],
+    "docAuthors": [
+      [
+        {
+          "Str": "George"
+        },
+        "Space",
+        {
+          "Str": "Headley"
+        }
+      ]
+    ],
+    "docDate": [
+      {
+        "Str": "30"
+      },
+      "Space",
+      {
+        "Str": "Jul"
+      },
+      "Space",
+      {
+        "Str": "2012"
+      }
+    ]
+  },
+  [
+    {
+      "Header": [
+        1,
+        [
+          {
+            "Str": "Level"
+          },
+          "Space",
+          {
+            "Str": "One"
+          },
+          "Space",
+          {
+            "Str": "-"
+          },
+          "Space",
+          {
+            "Str": "Title"
+          },
+          "Space",
+          {
+            "Str": "One"
+          }
+        ]
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Str": "A"
+        },
+        "Space",
+        {
+          "Str": "opening"
+        },
+        "Space",
+        {
+          "Str": "paragraph"
+        },
+        "Space",
+        {
+          "Str": "for"
+        },
+        "Space",
+        {
+          "Str": "Title"
+        },
+        "Space",
+        {
+          "Str": "One"
+        }
+      ]
+    },
+    {
+      "Header": [
+        2,
+        [
+          {
+            "Str": "Level"
+          },
+          "Space",
+          {
+            "Str": "Two"
+          },
+          "Space",
+          {
+            "Str": "-"
+          },
+          "Space",
+          {
+            "Str": "SubTitle"
+          },
+          "Space",
+          {
+            "Str": "One"
+          }
+        ]
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Str": "A"
+        },
+        "Space",
+        {
+          "Str": "preamble"
+        },
+        "Space",
+        {
+          "Str": "paragraph"
+        },
+        "Space",
+        {
+          "Str": "for"
+        },
+        "Space",
+        {
+          "Str": "SubTitle"
+        },
+        "Space",
+        {
+          "Str": "One"
+        }
+      ]
+    },
+    {
+      "OrderedList": [
+        [
+          1,
+          "Decimal",
+          "Period"
+        ],
+        [
+          [
+            {
+              "Para": [
+                {
+                  "Str": "Bullet"
+                },
+                "Space",
+                {
+                  "Str": "one"
+                }
+              ]
+            },
+            {
+              "Para": [
+                {
+                  "Str": "Paragraph"
+                },
+                "Space",
+                {
+                  "Str": "for"
+                },
+                "Space",
+                {
+                  "Str": "bullet"
+                },
+                "Space",
+                {
+                  "Str": "one"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "Para": [
+                {
+                  "Str": "Bullet"
+                },
+                "Space",
+                {
+                  "Str": "two"
+                }
+              ]
+            },
+            {
+              "Para": [
+                {
+                  "Str": "Paragraph"
+                },
+                "Space",
+                {
+                  "Str": "for"
+                },
+                "Space",
+                {
+                  "Str": "bullet"
+                },
+                "Space",
+                {
+                  "Str": "two"
+                }
+              ]
+            },
+            {
+              "CodeBlock": [
+                [
+                  "",
+                  [
+                    "ruby"
+                  ],
+                  [
+                    
+                  ]
+                ],
+                "  A code block attached to bullet two"
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "Header": [
+        2,
+        [
+          {
+            "Str": "Level"
+          },
+          "Space",
+          {
+            "Str": "Two"
+          },
+          "Space",
+          {
+            "Str": "-"
+          },
+          "Space",
+          {
+            "Str": "SubTitle"
+          },
+          "Space",
+          {
+            "Str": "Two"
+          }
+        ]
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Str": "A"
+        },
+        "Space",
+        {
+          "Str": "preamble"
+        },
+        "Space",
+        {
+          "Str": "paragraph"
+        },
+        "Space",
+        {
+          "Str": "for"
+        },
+        "Space",
+        {
+          "Str": "SubTitle"
+        },
+        "Space",
+        {
+          "Str": "Two"
+        }
+      ]
+    },
+    {
+      "CodeBlock": [
+        [
+          "",
+          [
+            
+          ],
+          [
+            
+          ]
+        ],
+        "  A code block at the outer level"
+      ]
+    },
+    {
+      "Header": [
+        1,
+        [
+          {
+            "Str": "Level"
+          },
+          "Space",
+          {
+            "Str": "One"
+          },
+          "Space",
+          {
+            "Str": "-"
+          },
+          "Space",
+          {
+            "Str": "Title"
+          },
+          "Space",
+          {
+            "Str": "Two"
+          }
+        ]
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Str": "Some"
+        },
+        "Space",
+        {
+          "Emph": [
+            {
+              "Str": "concluding"
+            }
+          ]
+        },
+        "Space",
+        {
+          "Str": "words"
+        },
+        {
+          "Str": "."
+        }
+      ]
+    }
+  ]
+]

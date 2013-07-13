@@ -1,0 +1,1595 @@
+[
+  {
+    "docTitle": [
+      
+    ],
+    "docAuthors": [
+      
+    ],
+    "docDate": [
+      
+    ]
+  },
+  [
+    {
+      "Header": [
+        1,
+        [
+          {
+            "Str": "Object"
+          },
+          "Space",
+          {
+            "Str": "Relational"
+          },
+          "Space",
+          {
+            "Str": "Models"
+          },
+          "Space",
+          {
+            "Str": "in"
+          },
+          "Space",
+          {
+            "Str": "in"
+          },
+          "Space",
+          {
+            "Str": "Ruby"
+          },
+          "Space",
+          {
+            "Str": "with"
+          },
+          "Space",
+          {
+            "Code": [
+              [
+                "",
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "sequel"
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "Header": [
+        2,
+        [
+          {
+            "Str": "ORM"
+          },
+          "Space",
+          {
+            "Str": "Libraries"
+          },
+          "Space",
+          {
+            "Str": "in"
+          },
+          "Space",
+          {
+            "Str": "Ruby"
+          }
+        ]
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Code": [
+            [
+              "",
+              [
+                
+              ],
+              [
+                
+              ]
+            ],
+            "ActiveRecord"
+          ]
+        },
+        "Space",
+        {
+          "Str": "is"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "most"
+        },
+        "Space",
+        {
+          "Str": "well"
+        },
+        {
+          "Str": "-"
+        },
+        {
+          "Str": "known"
+        },
+        "Space",
+        {
+          "Str": "library"
+        },
+        "Space",
+        {
+          "Str": "and"
+        },
+        "Space",
+        {
+          "Str": "a"
+        },
+        "Space",
+        {
+          "Str": "competent"
+        },
+        "Space",
+        {
+          "Str": "data"
+        },
+        "Space",
+        {
+          "Str": "modeler"
+        },
+        "Space",
+        {
+          "Str": "will"
+        },
+        "Space",
+        {
+          "Strong": [
+            {
+              "Str": "hate"
+            }
+          ]
+        },
+        "Space",
+        {
+          "Str": "it"
+        },
+        {
+          "Str": "."
+        },
+        "Space",
+        {
+          "Str": "It"
+        },
+        "Space",
+        {
+          "Str": "is"
+        },
+        "Space",
+        {
+          "Str": "'"
+        },
+        {
+          "Str": "opinionated"
+        },
+        {
+          "Str": "'"
+        },
+        "Space",
+        {
+          "Str": "software"
+        },
+        {
+          "Str": ","
+        },
+        "Space",
+        {
+          "Str": "which"
+        },
+        "Space",
+        {
+          "Str": "is"
+        },
+        "Space",
+        {
+          "Str": "fine"
+        },
+        "Space",
+        {
+          "Str": "in"
+        },
+        "Space",
+        {
+          "Str": "and"
+        },
+        "Space",
+        {
+          "Str": "of"
+        },
+        "Space",
+        {
+          "Str": "it"
+        },
+        "Space",
+        {
+          "Str": "self"
+        },
+        {
+          "Str": ","
+        },
+        "Space",
+        {
+          "Str": "but"
+        },
+        "Space",
+        {
+          "Str": "its"
+        },
+        "Space",
+        {
+          "Str": "opinions"
+        },
+        "Space",
+        {
+          "Str": "are"
+        },
+        "Space",
+        {
+          "Str": "those"
+        },
+        "Space",
+        {
+          "Str": "of"
+        },
+        "Space",
+        {
+          "Str": "one"
+        },
+        "Space",
+        {
+          "Str": "who"
+        },
+        "Space",
+        {
+          "Str": "wouldn"
+        },
+        {
+          "Str": "'"
+        },
+        {
+          "Str": "t"
+        },
+        "Space",
+        {
+          "Str": "know"
+        },
+        "Space",
+        {
+          "Str": "a"
+        },
+        "Space",
+        {
+          "Str": "decent"
+        },
+        "Space",
+        {
+          "Str": "data"
+        },
+        "Space",
+        {
+          "Str": "model"
+        },
+        "Space",
+        {
+          "Str": "if"
+        },
+        "Space",
+        {
+          "Str": "it"
+        },
+        "Space",
+        {
+          "Str": "bit"
+        },
+        "Space",
+        {
+          "Str": "them"
+        },
+        "Space",
+        {
+          "Str": "on"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "nose"
+        },
+        {
+          "Str": "."
+        },
+        "Space",
+        {
+          "Str": "Unfortunately"
+        },
+        {
+          "Str": ","
+        },
+        "Space",
+        {
+          "Str": "those"
+        },
+        "Space",
+        {
+          "Str": "opinions"
+        },
+        "Space",
+        {
+          "Str": "have"
+        },
+        "Space",
+        {
+          "Str": "massively"
+        },
+        "Space",
+        {
+          "Str": "influenced"
+        },
+        "Space",
+        {
+          "Str": "all"
+        },
+        "Space",
+        {
+          "Str": "ORM"
+        },
+        "Space",
+        {
+          "Str": "libraries"
+        },
+        "Space",
+        {
+          "Str": "in"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "Ruby"
+        },
+        "Space",
+        {
+          "Str": "space"
+        },
+        "Space",
+        {
+          "Str": "and"
+        },
+        "Space",
+        {
+          "Str": "many"
+        },
+        "Space",
+        {
+          "Str": "others"
+        },
+        "Space",
+        {
+          "Str": "as"
+        },
+        "Space",
+        {
+          "Str": "well"
+        },
+        {
+          "Str": "."
+        },
+        "Space",
+        {
+          "Str": "This"
+        },
+        "Space",
+        {
+          "Str": "is"
+        },
+        "Space",
+        {
+          "Str": "primarily"
+        },
+        "Space",
+        {
+          "Str": "due"
+        },
+        "Space",
+        {
+          "Str": "to"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "popularity"
+        },
+        "Space",
+        {
+          "Str": "of"
+        },
+        "Space",
+        {
+          "Str": "Ruby"
+        },
+        "Space",
+        {
+          "Str": "on"
+        },
+        "Space",
+        {
+          "Str": "Rails"
+        },
+        {
+          "Str": "."
+        }
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Str": "The"
+        },
+        "Space",
+        {
+          "Str": "good"
+        },
+        "Space",
+        {
+          "Str": "news"
+        },
+        "Space",
+        {
+          "Str": "is"
+        },
+        "Space",
+        {
+          "Str": "that"
+        },
+        "Space",
+        {
+          "Str": "there"
+        },
+        "Space",
+        {
+          "Str": "is"
+        },
+        "Space",
+        {
+          "Str": "hope"
+        },
+        {
+          "Str": "."
+        }
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Code": [
+            [
+              "",
+              [
+                
+              ],
+              [
+                
+              ]
+            ],
+            "Sequel"
+          ]
+        },
+        "Space",
+        {
+          "Str": "is"
+        },
+        "Space",
+        {
+          "Str": "a"
+        },
+        "Space",
+        {
+          "Str": "much"
+        },
+        "Space",
+        {
+          "Str": "more"
+        },
+        "Space",
+        {
+          "Str": "flexible"
+        },
+        "Space",
+        {
+          "Str": "and"
+        },
+        "Space",
+        {
+          "Str": "customizable"
+        },
+        "Space",
+        {
+          "Str": "ORM"
+        },
+        "Space",
+        {
+          "Str": "package"
+        },
+        "Space",
+        {
+          "Str": "for"
+        },
+        "Space",
+        {
+          "Str": "Ruby"
+        },
+        "Space",
+        {
+          "Str": "which"
+        },
+        "Space",
+        {
+          "Str": "allows"
+        },
+        "Space",
+        {
+          "Str": "for"
+        },
+        "Space",
+        {
+          "Str": "complete"
+        },
+        "Space",
+        {
+          "Str": "and"
+        },
+        "Space",
+        {
+          "Str": "easy"
+        },
+        "Space",
+        {
+          "Str": "customization"
+        },
+        "Space",
+        {
+          "Str": "of"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "opinions"
+        },
+        "Space",
+        {
+          "Str": "inherited"
+        },
+        "Space",
+        {
+          "Str": "from"
+        },
+        "Space",
+        {
+          "Code": [
+            [
+              "",
+              [
+                
+              ],
+              [
+                
+              ]
+            ],
+            "ActiveRecord"
+          ]
+        },
+        {
+          "Str": "."
+        }
+      ]
+    },
+    {
+      "Header": [
+        2,
+        [
+          {
+            "Str": "Data"
+          },
+          "Space",
+          {
+            "Str": "Model"
+          }
+        ]
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Image": [
+            [
+              
+            ],
+            [
+              "ruby_orm.png",
+              "Data Model"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "Header": [
+        1,
+        [
+          {
+            "Code": [
+              [
+                "",
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "Sequel"
+            ]
+          },
+          "Space",
+          {
+            "Str": "Concepts"
+          }
+        ]
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Str": "The"
+        },
+        "Space",
+        {
+          "Str": "whole"
+        },
+        "Space",
+        {
+          "Str": "business"
+        },
+        "Space",
+        {
+          "Str": "of"
+        },
+        "Space",
+        {
+          "Str": "table"
+        },
+        "Space",
+        {
+          "Str": "creation"
+        },
+        "Space",
+        {
+          "Str": "and"
+        },
+        "Space",
+        {
+          "Str": "migration"
+        },
+        "Space",
+        {
+          "Str": "is"
+        },
+        "Space",
+        {
+          "Str": "not"
+        },
+        "Space",
+        {
+          "Str": "covered"
+        },
+        "Space",
+        {
+          "Str": "in"
+        },
+        "Space",
+        {
+          "Str": "this"
+        },
+        "Space",
+        {
+          "Str": "tutorial"
+        },
+        "Space",
+        {
+          "Str": "since"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "author"
+        },
+        "Space",
+        {
+          "Str": "thinks"
+        },
+        "Space",
+        {
+          "Str": "that"
+        },
+        "Space",
+        {
+          "Str": "is"
+        },
+        "Space",
+        {
+          "Str": "not"
+        },
+        "Space",
+        {
+          "Str": "in"
+        },
+        "Space",
+        {
+          "Str": "scope"
+        },
+        "Space",
+        {
+          "Str": "for"
+        },
+        "Space",
+        {
+          "Str": "an"
+        },
+        "Space",
+        {
+          "Str": "ORM"
+        },
+        "Space",
+        {
+          "Str": "library"
+        },
+        {
+          "Str": "."
+        }
+      ]
+    },
+    {
+      "Header": [
+        2,
+        [
+          {
+            "Str": "Distinctions"
+          }
+        ]
+      ]
+    },
+    {
+      "Header": [
+        3,
+        [
+          {
+            "Str": "Datasets"
+          }
+        ]
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Str": "Datasets"
+        },
+        "Space",
+        {
+          "Str": "are"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "key"
+        },
+        "Space",
+        {
+          "Str": "concept"
+        },
+        "Space",
+        {
+          "Str": "in"
+        },
+        "Space",
+        {
+          "Code": [
+            [
+              "",
+              [
+                
+              ],
+              [
+                
+              ]
+            ],
+            "sequel"
+          ]
+        },
+        {
+          "Str": "."
+        },
+        "Space",
+        {
+          "Str": "They"
+        },
+        "Space",
+        {
+          "Str": "are"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "tool"
+        },
+        "Space",
+        {
+          "Str": "for"
+        },
+        "Space",
+        {
+          "Str": "all"
+        },
+        "Space",
+        {
+          "Str": "CRUD"
+        },
+        "Space",
+        {
+          "Str": "access"
+        },
+        "Space",
+        {
+          "Str": "to"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "database"
+        },
+        "Space",
+        {
+          "Str": "and"
+        },
+        "Space",
+        {
+          "Str": "also"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "underpinnings"
+        },
+        "Space",
+        {
+          "Str": "of"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Code": [
+            [
+              "",
+              [
+                
+              ],
+              [
+                
+              ]
+            ],
+            "SQL::Model"
+          ]
+        },
+        "Space",
+        {
+          "Str": "class"
+        },
+        {
+          "Str": "."
+        }
+      ]
+    },
+    {
+      "Header": [
+        3,
+        [
+          {
+            "Str": "Models"
+          }
+        ]
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Str": "A"
+        },
+        "Space",
+        {
+          "Str": "model"
+        },
+        "Space",
+        {
+          "Str": "is"
+        },
+        "Space",
+        {
+          "Str": "a"
+        },
+        "Space",
+        {
+          "Str": "representation"
+        },
+        "Space",
+        {
+          "Str": "of"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "tables"
+        },
+        {
+          "Str": ","
+        },
+        "Space",
+        {
+          "Str": "keys"
+        },
+        "Space",
+        {
+          "Str": "and"
+        },
+        "Space",
+        {
+          "Str": "relationships"
+        },
+        "Space",
+        {
+          "Str": "in"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "target"
+        },
+        "Space",
+        {
+          "Str": "database"
+        },
+        {
+          "Str": "."
+        }
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Str": "Why"
+        },
+        "Space",
+        {
+          "Str": "do"
+        },
+        "Space",
+        {
+          "Str": "we"
+        },
+        "Space",
+        {
+          "Str": "have"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "ugly"
+        },
+        "Space",
+        {
+          "Str": "leading"
+        },
+        "Space",
+        {
+          "Str": "here"
+        },
+        {
+          "Str": "."
+        }
+      ]
+    },
+    {
+      "Header": [
+        1,
+        [
+          {
+            "Str": "The"
+          },
+          "Space",
+          {
+            "Str": "Basics"
+          },
+          "Space",
+          {
+            "Str": "of"
+          },
+          "Space",
+          {
+            "Code": [
+              [
+                "",
+                [
+                  
+                ],
+                [
+                  
+                ]
+              ],
+              "Sequel"
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "Header": [
+        2,
+        [
+          {
+            "Str": "Diagnostic"
+          },
+          "Space",
+          {
+            "Str": "Methods"
+          }
+        ]
+      ]
+    },
+    {
+      "Para": [
+        {
+          "Code": [
+            [
+              "",
+              [
+                
+              ],
+              [
+                
+              ]
+            ],
+            "puts"
+          ]
+        },
+        "Space",
+        {
+          "Emph": [
+            {
+              "Code": [
+                [
+                  "",
+                  [
+                    
+                  ],
+                  [
+                    
+                  ]
+                ],
+                "dataset"
+              ]
+            }
+          ]
+        },
+        {
+          "Code": [
+            [
+              "",
+              [
+                
+              ],
+              [
+                
+              ]
+            ],
+            ".sql"
+          ]
+        },
+        "Space",
+        {
+          "Str": "-"
+        },
+        {
+          "Str": "-"
+        },
+        "Space",
+        {
+          "Str": "print"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "SQL"
+        },
+        "Space",
+        {
+          "Str": "query"
+        },
+        "Space",
+        {
+          "Str": "associated"
+        },
+        "Space",
+        {
+          "Str": "with"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Emph": [
+            {
+              "Str": "dataset"
+            }
+          ]
+        },
+        "LineBreak",
+        {
+          "Code": [
+            [
+              "",
+              [
+                
+              ],
+              [
+                
+              ]
+            ],
+            "puts"
+          ]
+        },
+        "Space",
+        {
+          "Emph": [
+            {
+              "Code": [
+                [
+                  "",
+                  [
+                    
+                  ],
+                  [
+                    
+                  ]
+                ],
+                "party"
+              ]
+            }
+          ]
+        },
+        {
+          "Code": [
+            [
+              "",
+              [
+                
+              ],
+              [
+                
+              ]
+            ],
+            ".columns"
+          ]
+        },
+        "Space",
+        {
+          "Str": "-"
+        },
+        {
+          "Str": "-"
+        },
+        "Space",
+        {
+          "Str": "print"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "column"
+        },
+        "Space",
+        {
+          "Str": "names"
+        },
+        "Space",
+        {
+          "Str": "of"
+        },
+        "Space",
+        {
+          "Str": "the"
+        },
+        "Space",
+        {
+          "Str": "dataset"
+        }
+      ]
+    },
+    {
+      "Header": [
+        2,
+        [
+          {
+            "Str": "Tutorial"
+          },
+          "Space",
+          {
+            "Str": "1"
+          }
+        ]
+      ]
+    },
+    {
+      "OrderedList": [
+        [
+          1,
+          "Decimal",
+          "Period"
+        ],
+        [
+          [
+            {
+              "Para": [
+                {
+                  "Str": "As"
+                },
+                "Space",
+                {
+                  "Str": "in"
+                },
+                "Space",
+                {
+                  "Str": "all"
+                },
+                "Space",
+                {
+                  "Str": "things"
+                },
+                "Space",
+                {
+                  "Str": "Ruby"
+                },
+                {
+                  "Str": ","
+                },
+                "Space",
+                {
+                  "Str": "you"
+                },
+                "Space",
+                {
+                  "Str": "need"
+                },
+                "Space",
+                {
+                  "Str": "to"
+                },
+                "Space",
+                {
+                  "Code": [
+                    [
+                      "",
+                      [
+                        
+                      ],
+                      [
+                        
+                      ]
+                    ],
+                    "require"
+                  ]
+                },
+                "Space",
+                {
+                  "Str": "the"
+                },
+                "Space",
+                {
+                  "Str": "library"
+                },
+                {
+                  "Str": "."
+                }
+              ]
+            },
+            {
+              "CodeBlock": [
+                [
+                  "",
+                  [
+                    "ruby",
+                    "literate"
+                  ],
+                  [
+                    
+                  ]
+                ],
+                "require 'sequel'"
+              ]
+            }
+          ],
+          [
+            {
+              "Para": [
+                {
+                  "Str": "You"
+                },
+                "Space",
+                {
+                  "Str": "need"
+                },
+                "Space",
+                {
+                  "Str": "a"
+                },
+                "Space",
+                {
+                  "Str": "database"
+                },
+                "Space",
+                {
+                  "Str": "connection"
+                },
+                {
+                  "Str": "."
+                },
+                "Space",
+                {
+                  "Strong": [
+                    {
+                      "Str": "Note"
+                    },
+                    {
+                      "Str": ":"
+                    }
+                  ]
+                },
+                "Space",
+                {
+                  "Str": "The"
+                },
+                "Space",
+                {
+                  "Str": "database"
+                },
+                "Space",
+                {
+                  "Str": "connection"
+                },
+                "Space",
+                {
+                  "Str": "variable"
+                },
+                "Space",
+                {
+                  "Str": "must"
+                },
+                "Space",
+                {
+                  "Str": "be"
+                },
+                "Space",
+                {
+                  "Str": "named"
+                },
+                "Space",
+                {
+                  "Strong": [
+                    {
+                      "Code": [
+                        [
+                          "",
+                          [
+                            
+                          ],
+                          [
+                            
+                          ]
+                        ],
+                        "DB"
+                      ]
+                    }
+                  ]
+                },
+                "Space",
+                {
+                  "Str": "for"
+                },
+                "Space",
+                {
+                  "Str": "the"
+                },
+                "Space",
+                {
+                  "Code": [
+                    [
+                      "",
+                      [
+                        
+                      ],
+                      [
+                        
+                      ]
+                    ],
+                    "SQL::Model"
+                  ]
+                },
+                "Space",
+                {
+                  "Str": "classes"
+                },
+                "Space",
+                {
+                  "Str": "to"
+                },
+                "Space",
+                {
+                  "Str": "work"
+                },
+                {
+                  "Str": "."
+                }
+              ]
+            },
+            {
+              "CodeBlock": [
+                [
+                  "",
+                  [
+                    "ruby",
+                    "literate"
+                  ],
+                  [
+                    
+                  ]
+                ],
+                "DB = Sequel.postgres(\n  :adapter=>'postgres',\n  :host=>'localhost',\n  :user=>'postgres',\n  :password=>'twmaosdb',\n  :database=>'bro_2012'\n)"
+              ]
+            }
+          ],
+          [
+            {
+              "Para": [
+                {
+                  "Str": "A"
+                },
+                "Space",
+                {
+                  "Str": "simple"
+                },
+                "Space",
+                {
+                  "Str": "pretty"
+                },
+                "Space",
+                {
+                  "Str": "printer"
+                },
+                "Space",
+                {
+                  "Str": "for"
+                },
+                "Space",
+                {
+                  "Str": "the"
+                },
+                "Space",
+                {
+                  "Str": "data"
+                }
+              ]
+            },
+            {
+              "CodeBlock": [
+                [
+                  "",
+                  [
+                    "ruby",
+                    "literate"
+                  ],
+                  [
+                    
+                  ]
+                ],
+                "def row_print(row, type=\"compact\")\n  if type == 'compact' then\n    row.each { |name, value| printf(\"%-10.10s %-10.10s  \", name, value) }\n    puts\n  else\n    row.each { |name, value| printf(\"%-15.15s %s\\n\", name, value) }\n    puts\n  end\nend"
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "Header": [
+        2,
+        [
+          {
+            "Str": "Datasets"
+          }
+        ]
+      ]
+    },
+    {
+      "CodeBlock": [
+        [
+          "",
+          [
+            "ruby",
+            "literate"
+          ],
+          [
+            
+          ]
+        ],
+        "party = DB[:party]\nputs party.sql\nputs party.columns\nparty.each { |row| row_print(row, 'compact') }"
+      ]
+    }
+  ]
+]

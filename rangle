@@ -1,0 +1,149 @@
+#! /usr/bin/env ruby -w
+
+# -- -------------------------------------------------------------------------
+#      A pandoc code block extractor 
+#
+#      The extractor works by processing the JSON output from pandoc.
+#
+# -- -------------------------------------------------------------------------
+#
+#      The command line argument processing is abysmal. 
+#
+#      Using the default JSON.load
+#
+#        - A JSON array node is a Ruby Array
+#        - A JSON object node is a Ruby Hash
+#
+# -- -------------------------------------------------------------------------
+
+require 'yaml'
+require 'json'
+
+@options = {
+  :pandoc =>    "/usr/local/bin/pandoc",
+  :panopts =>   "--to=json"
+}
+
+# -- -------------------------------------------------------------------------
+
+def terminal(key, value)
+
+  # Certain terminals require special handling
+  
+  case key.to_s
+    when 'Space'
+    when 'LineBreak'
+    when 'Str'
+    else
+      print value
+  end
+
+end
+
+def non_terminal(key, value)
+
+  case key.to_s
+    when 'CodeBlock'  
+      terminal(nil, value[1]); puts "\n\n"
+
+    when 'docAuthors',  'docDate',  'docTitle'
+      json_array(value) 
+
+    when 'Emph',  'Strong', 'Strikeout',  'Subscript',  'Superscript'
+      json_array(value)
+
+    when 'Code'  
+      terminal('Str', value[1]); 
+
+    when 'Image',  'Link',  'Note'
+      terminal('Str', value[1])
+
+    when 'BulletList'  
+      # tbd
+
+    when 'OrderedList'  
+      json_array(value[1])
+
+    when 'DefinitionList'  
+      # tbd
+
+    when 'BlockQuote'  
+      # tbd
+
+    when 'Header'  
+      json_array(value[1]) ; 
+
+    when 'Plain'  
+      # tbd
+
+    when 'Table'  
+      # tbd
+
+    when 'Para'  
+      json_array(value) ; 
+
+    else
+      # Should raise something useful here
+      puts "NT: " + key.to_s
+      json_array(value)
+  end
+
+end
+
+# -- -------------------------------------------------------------------------
+
+def json_object(node) 
+
+  node.each do |key,value|
+  
+    # Object nodes are either String:Array or String:String which
+    # corresponds to non-terminal or terminal nodes
+
+    case value.class.to_s
+      when 'Array'
+        non_terminal(key,value)
+      when 'String'
+        terminal(key, value)
+      else
+        # Should raise something useful here
+        puts "Something odd " + value.class.to_s
+    end
+
+  end
+
+end
+
+def json_array(node)
+
+  node.each do |value|
+    
+    case value.class.to_s
+      when 'Hash'
+        json_object(value)
+      when 'Array'
+        json_array(value)
+      else
+        terminal(value, nil)
+    end
+  end
+
+end
+
+# -- -------------------------------------------------------------------------
+
+CONFIG_FILE = File.join(ENV['HOME'],'.ranglerc')
+
+if File.exists? CONFIG_FILE
+  config_options = YAML.load_file(CONFIG_FILE)
+  @options.merge!(config_options)
+end
+
+ARGV.each do |file|
+
+  command = sprintf("%s %s '%s'", @options[:pandoc], @options[:panopts], file)
+
+  json_array(JSON.load(IO.popen(command)))
+
+end
+
+# vim:et:ts=2:sw=2:foldmethod=syntax                                            
